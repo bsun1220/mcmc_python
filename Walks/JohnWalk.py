@@ -1,4 +1,4 @@
-from BarrierRandomWalk import *
+from Walks.BarrierRandomWalk import *
 
 class JohnWalk(BarrierRandomWalk):
     def __init__(self, A, b, x, r):
@@ -56,5 +56,4 @@ class JohnWalk(BarrierRandomWalk):
                 break
             
             w_i = w_i - adj * gradient
-        print(w_i)
         return w_i

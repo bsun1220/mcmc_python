@@ -1,4 +1,4 @@
-from BarrierRandomWalk import *
+from Walks.BarrierRandomWalk import *
 
 class VaidyaWalk(BarrierRandomWalk):
     def __init__(self, A, b, x, r):

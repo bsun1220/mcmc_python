@@ -1,4 +1,4 @@
-nfrom RandomWalk import *
+from RandomWalk import *
 
 class BallWalk(RandomWalk):
     def __init__(self, A, b, r):
